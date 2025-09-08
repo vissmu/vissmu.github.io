@@ -25,6 +25,19 @@ main {
 h1 {
     color: #ff6600;
 }
+button {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 25px;
+    box-shadow: 0 5px 15px rgba(255, 102, 0, 0.4);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+    outline: none;
+}
 p {
     line-height: 1.6;
     font-size: 1.1em;
@@ -32,7 +45,7 @@ p {
 .shawarma-image {
     display: block;
     max-width: 100%;
-    margin: 20px auto;
+    margin: 10px auto;
     border-radius: 10px;
 }
 footer {
@@ -43,3 +56,40 @@ footer {
     font-size: 0.9em;
     margin-top: 40px;
 }
+.table-shawarma {
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.table-shawarma caption {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #ff6600;
+}
+
+.table-shawarma thead {
+    background-color: #ff6600;
+    color: white;
+}
+
+.table-shawarma th, 
+.table-shawarma td {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.table-shawarma tbody tr:nth-child(even) {
+    background-color: #fff7e6;
+}
+
+.table-shawarma tbody tr:hover {
+    background-color: #ffe0b3;
+    cursor: pointer;
+}
+
